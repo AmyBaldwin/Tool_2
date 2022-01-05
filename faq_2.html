@@ -61,7 +61,7 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="loading_2.html">Loading query genomes</a>
+                    <li class="toctree-l1"><a class="reference internal" href="loading_2.html">Uploading query genomes</a>
                     </li>
                 </ul>
                 <ul>
@@ -73,7 +73,7 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="unloading_2.html">Unloading your outputs</a>
+                    <li class="toctree-l1"><a class="reference internal" href="unloading_2.html">Downloading your outputs</a>
                     </li>
                 </ul>
       </div>
@@ -157,8 +157,6 @@
 In the <code>summary</code> folder there will be a single document summarising all ‘hits’ results. </p>
 <p>Tool 2 also reports information about the run. In the run output folder you will find:</p>
 <ul>
-
-
 `run_parameters.txt` This text document lists: 
 <li>the name of the database used (xxx), </li>
 <li>the minimum DNA %identity (yy) and</li>
@@ -168,34 +166,20 @@ In the <code>summary</code> folder there will be a single document summarising a
 <li>a text document which reports the version of abricate used for the run</li>
 `<xxx>_sequences.fa`
 <li>the custom sequences file used for the run.</li>
+</ul>
 
-
-## How do you view the output files?
-
-You can open the files in Excel. The output files are in `.tab` format.
-
-The `run_parameters.txt` document can be opened in any text editor.
-
-
-## Can I change the settings of Tool 2?
-
-Yes, you can modify the two different settings: `identity` and `coverage`. Using the default settings there must be a minimum DNA identity of 75%, and a minimum DNA coverage of 0% for a match to be recorded. These can be altered when you set Tool 2 to run. 
-
-For all runs, the settings are recorded in the name of the newly created output folder, e.g. the results of a run on May 21st 2021 started at 1.30 pm using the resfinder database and default settings will be stored in this folder: `12P-i80-c80__2021-05-21_13:15/`.
-
-
-## Is there a limit to how many genome assemblies Tool 2 can screen?
-
-The smallest number of genome assemblies Tool 2 can screen is one. There is no upper limit, although practically speaking the upper limit will be defined by the size of the server. 
-
-Tool 2 will screen 100 bacterial genome assemblies in ~10 minutes. 
-
-
-## Where can I find further information about Tool 2?
-
-Tool 1 uses a software tool named ABRicate. It was developed by Torsten Seemann and Björn Grüning in Melborne, Australia. The ABRicate information page can be found [here](https://github.com/tseemann/abricate) on GitHub.
-
-You can find further information about the BLAST tool `makeblastdb` [here](https://www.ncbi.nlm.nih.gov/books/NBK569841/). `makeblastdb` produces BLAST databases from FASTA files.
+<h2 id="how-do-you-view-the-output-files">How do you view the output files?</h2>
+<p>You can open the files in Excel. The output files are in <code>.tab</code> format.</p>
+<p>The <code>run_parameters.txt</code> document can be opened in any text editor.</p>
+<h2 id="can-i-change-the-settings-of-tool-2">Can I change the settings of Tool 2?</h2>
+<p>Yes, you can modify the two different settings: <code>identity</code> and <code>coverage</code>. Using the default settings there must be a minimum DNA identity of 75%, and a minimum DNA coverage of 0% for a match to be recorded. These can be altered when you set Tool 2 to run. </p>
+<p>For all runs, the settings are recorded in the name of the newly created output folder, e.g. the results of a run on May 21st 2021 started at 1.30 pm using the resfinder database and default settings will be stored in this folder: <code>12P-i80-c80__2021-05-21_13:15/</code>.</p>
+<h2 id="is-there-a-limit-to-how-many-genome-assemblies-tool-2-can-screen">Is there a limit to how many genome assemblies Tool 2 can screen?</h2>
+<p>The smallest number of genome assemblies Tool 2 can screen is one. There is no upper limit, although practically speaking the upper limit will be defined by the size of the server. </p>
+<p>Tool 2 will screen 100 bacterial genome assemblies in ~10 minutes. </p>
+<h2 id="where-can-i-find-further-information-about-tool-2">Where can I find further information about Tool 2?</h2>
+<p>Tool 1 uses a software tool named ABRicate. It was developed by Torsten Seemann and Björn Grüning in Melborne, Australia. The ABRicate information page can be found <a href="https://github.com/tseemann/abricate">here</a> on GitHub.</p>
+<p>You can find further information about the BLAST tool <code>makeblastdb</code> <a href="https://www.ncbi.nlm.nih.gov/books/NBK569841/">here</a>. <code>makeblastdb</code> produces BLAST databases from FASTA files. </p>
               
             </div>
           </div>

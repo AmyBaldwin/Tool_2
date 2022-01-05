@@ -59,7 +59,7 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="loading_2.html">Loading query genomes</a>
+                    <li class="toctree-l1"><a class="reference internal" href="loading_2.html">Uploading query genomes</a>
                     </li>
                 </ul>
                 <ul>
@@ -73,7 +73,7 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="unloading_2.html">Unloading your outputs</a>
+                    <li class="toctree-l1"><a class="reference internal" href="unloading_2.html">Downloading your outputs</a>
                     </li>
                 </ul>
       </div>
@@ -117,16 +117,17 @@
 <p>Identity is used to specify the minimum DNA identity (default <code>75</code>). </p>
 <p>Coverage is used to specifiy the minimum DNA coverage (default <code>0</code>). </p>
 <p>You can specify these settings in the same way that you specified the database, as follows:</p>
-<pre><code>`--identity ‘yyy’`
-`--coverage ‘zzz’`
+<pre><code>--identity ‘yyy’
+--coverage ‘zzz’
 </code></pre>
 <p>The command will look like this: </p>
-<p><code>nextflow run tool_2.nf --abricateDB ‘card’ --identity ‘yyy’ --coverage ‘zzz’</code></p>
+<pre><code>nextflow run tool_2.nf --abricateDB ‘card’ --identity ‘yyy’ --coverage ‘zzz’
+</code></pre>
 <p>Substitute <code>xxx</code> +/ <code>yyy</code> +/ <code>zzz</code> with the actual parameter you wish to use. For example,  </p>
-<pre><code>`nextflow run tool_2.nf --abricateDB ‘vfdb’ --coverage ‘90’`
+<pre><code>nextflow run tool_2.nf --abricateDB ‘vfdb’ --coverage ‘90’
 </code></pre>
 <p>Tool 2 will run using the <code>vfdb</code> database, default 80% minimum DNA identity and 90% minimum DNA coverage.</p>
-<pre><code>`nextflow run tool_2.nf --identity ‘70’ --coverage ‘75’`
+<pre><code>nextflow run tool_2.nf --identity ‘70’ --coverage ‘75’
 </code></pre>
 <p>Tool 2 will run using the default card database, 70% minimum DNA identity and 75% minimum DNA coverage.</p>
               
@@ -136,7 +137,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="unloading_2.html" class="btn btn-neutral float-right" title="Unloading your outputs">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="unloading_2.html" class="btn btn-neutral float-right" title="Downloading your outputs">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="running_2.html" class="btn btn-neutral" title="Running Tool 2"><span class="icon icon-circle-arrow-left"></span> Previous</a>
