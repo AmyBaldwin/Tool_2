@@ -9,7 +9,7 @@
   <meta name="author" content="Amy J Baldwin">
   <link rel="canonical" href="https://amyjoy48.github.io/Tool_2/faq_2.html">
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>FAQs - Tool_2</title>
+  <title>FAQs - Tool 2</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="css/theme.css" />
@@ -37,43 +37,45 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> Tool_2</a>
-        
+        <a href="index.html" class="icon icon-home"> Tool 2</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="home_2.html">Home</a>
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">Introduction</a>
                     </li>
                 </ul>
                 <ul>
                     <li class="toctree-l1"><a class="reference internal" href="quick_2.html">Quick start</a>
                     </li>
                 </ul>
+                <p class="caption"><span class="caption-text">Running Tool 2</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="custom_2.html">Preparing custom sequences</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="access_2.html">Accessing the server</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="loading_2.html">Loading inputs</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="running_2.html">Initiating Tool 2</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="options_2.html">Customisation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="unloading_2.html">Downloading outputs</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Further Information</span></p>
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="faq_2.html">FAQs</a>
     <ul class="current">
     </ul>
                     </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="access_2.html">Accessing Tool 2</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="loading_2.html">Uploading query genomes</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="running_2.html">Running Tool 2</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="options_2.html">More options</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="unloading_2.html">Downloading your outputs</a>
+                    <li class="toctree-l1"><a class="reference internal" href="troubleshooting_2.html">Troubleshooting</a>
                     </li>
                 </ul>
       </div>
@@ -85,7 +87,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">Tool_2</a>
+        <a href="index.html">Tool 2</a>
       </nav>
 
       
@@ -93,8 +95,12 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".">Docs</a> &raquo;</li>
+    <li><a href="index.html">Docs</a> &raquo;</li>
     
+      
+        
+          <li>Further Information &raquo;</li>
+        
       
     
     <li>FAQs</li>
@@ -114,11 +120,10 @@
               
                 <h2 id="what-information-does-tool-2-need">What information does Tool 2 need?</h2>
 <p>You need to provide Tool 2 with two pieces of information. </p>
-<p>First, the custom sequences, which Tool 2 will convert to a database. These must be saved in a multi-fasta file; the format of this file is important. Tool 2 looks for this file in the <code>input_custom_seqs</code> folder. Visit section (B) of this User Guide for details.</p>
-<p>Secondly, the genomes you wish to query must be saved in the input folder. Tool 2 screens all genomes in the <code>input_genomes</code> folder. The <code>LIBRARY</code> folder contains the genome assemblies for all the sequenced strains.</p>
+<p>First, the custom sequences, which Tool 2 will convert to a database. These must be saved in a multi-fasta file; the format of this file is important. Tool 2 looks for this file in the <code>input_custom_seqs</code> folder. </p>
+<p>Secondly, the genomes you wish to query must be saved in the input folder, <code>input_genomes</code>. Tool 2 screens all genomes in this folder. The <code>LIBRARY</code> folder contains the genome assemblies for all the sequenced strains.</p>
 <h2 id="how-do-you-run-tool-2">How do you run Tool 2?</h2>
-<p>A step-by-step guide can be found in section (C).</p>
-<p>Briefly, once you have accessed Tool 2 and provided the two required inputs, you enter a single command and the results will be deposited in the output folder. </p>
+<p>Once you have accessed Tool 2 and provided the two required inputs, you can set up a stable connection (optional, but recommended), enter a single command and the results will be deposited in the output folder. </p>
 <h2 id="what-are-the-different-folders">What are the different folders?</h2>
 <p>The Tool 2 file system contains the following folders:</p>
 <table>
@@ -152,24 +157,30 @@
 </tbody>
 </table>
 <h2 id="what-documents-are-made-by-tool-2">What documents are made by Tool 2?</h2>
-<p>Each time Tool 2 runs it makes an output folder named according to the run parameters, date and time. In the output folder Tool 2 deposits the documents in 2 sub-folders: isolate and summary. </p>
+<p>Each time Tool 2 runs it makes an output folder named according to the run parameters, date and time. In the output folder Tool 2 deposits the documents in 2 sub-folders: <code>isolate</code> and <code>summary</code>. </p>
 <p>In the <code>isolate</code> folder there will be a results file for each genome assembly.
 In the <code>summary</code> folder there will be a single document summarising all ‘hits’ results. </p>
 <p>Tool 2 also reports information about the run. In the run output folder you will find:</p>
+<p><code>run_parameters.txt</code> </p>
+<p>This text document lists: </p>
 <ul>
-`run_parameters.txt` This text document lists: 
 <li>the name of the database used (xxx), </li>
 <li>the minimum DNA %identity (yy) and</li>
 <li>the minimum DNA %coverage (zz).</li>
 <li>Ignore ‘help=false’. This is an expected byproduct of the help/usage message.</li>
-`abricate_version.txt`
+</ul>
+
+<p><code>abricate_version.txt</code></p>
+<ul>
 <li>a text document which reports the version of abricate used for the run</li>
-`<xxx>_sequences.fa`
+</ul>
+<p><code>&lt;xxx&gt;_sequences.fa</code></p>
+<ul>
 <li>the custom sequences file used for the run.</li>
 </ul>
 
 <h2 id="how-do-you-view-the-output-files">How do you view the output files?</h2>
-<p>You can open the files in Excel. The output files are in <code>.tab</code> format.</p>
+<p>You can open the files in a spreadsheet, e.g. MS Excel. The output files are in <code>.tab</code> format.</p>
 <p>The <code>run_parameters.txt</code> document can be opened in any text editor.</p>
 <h2 id="can-i-change-the-settings-of-tool-2">Can I change the settings of Tool 2?</h2>
 <p>Yes, you can modify the two different settings: <code>identity</code> and <code>coverage</code>. Using the default settings there must be a minimum DNA identity of 75%, and a minimum DNA coverage of 0% for a match to be recorded. These can be altered when you set Tool 2 to run. </p>
@@ -187,10 +198,10 @@ In the <code>summary</code> folder there will be a single document summarising a
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="access_2.html" class="btn btn-neutral float-right" title="Accessing Tool 2">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="troubleshooting_2.html" class="btn btn-neutral float-right" title="Troubleshooting">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="quick_2.html" class="btn btn-neutral" title="Quick start"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="unloading_2.html" class="btn btn-neutral" title="Downloading outputs"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -220,16 +231,17 @@ In the <code>summary</code> folder there will be a single document summarising a
         </span>
     
     
-      <span><a href="quick_2.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="unloading_2.html" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="access_2.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="troubleshooting_2.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
     <script>var base_url = '.';</script>
     <script src="js/theme_extra.js" defer></script>
     <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
     <script defer>
         window.onload = function () {
             SphinxRtdTheme.Navigation.enable(true);
